@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Athul-Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="logo">
+  <a href="https://www.instagram.com/">
+    <img src='download.jpg' alt="Logo">
+  </a>
+  <a href="https://www.github.com/">
+    <img src='download (1).png' alt="Logo">
+  </a>
+
+  </div> 
+  
+  <nav>
+    <div class="">
+      <h1>ATHUL RAJA</h1>
+      
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="frames-container">
+    <div class="frame" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Heyy!! I'm Athul. Welcome to my website.
+        </p>
+      </div>
+    </div>
+<hr>
+    <div class="frame" id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>  
+          <li>
+            <h3>MCA</h3>
+            <p>Christ University, Bangalore</p>
+          </li>
+          <li>
+            <h3>BCA with Data Analytics</h3>
+            <p>Kristu Jayanti College, Bangalore</p>
+          </li>
+          <li>
+            <h3>12th</h3>
+            <p>Peevees Model School</p>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+<hr>
+
+    <div class="frame" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <h3>Python</h3>
+            <p></p>
+          </li>
+          <li>
+            <h3>Web Designing</h3>
+            <p></p>
+          </li>
+          <li>
+            <h3>C</h3>
+            <p></p>
+          </li>
+          <li>
+            <h3>R</h3>
+            <p>(Data Analytics)</p>
+          </li>
+          <li>
+            <h3>Tableau</h3>
+            <p>(Data Visualization)</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+<hr>
+    <div class="frame" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form onsubmit="return false;">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button onclick="sendMessage()">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
