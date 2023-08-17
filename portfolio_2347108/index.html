@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>portfolio</title>
+  <meta name="description" content="Clean HTML portfolio template, responsive, open-source, and ready to use!">
+  <meta name="author" content="Giosuè Sulipano">
+
+  <!-- Mobile-friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Minimalist CSS -->
+  <link rel="stylesheet" href="assets/css/minimalist.css">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body{
+      background-color: rgb(0 123 255 / 4%);
+    }
+    .fontpadding{
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navv">
+    <ul class="nav justify-content-center naa">
+      <li class="nav-item">
+        <a class="nav-link text-black" aria-current="page" href="./index.html"><i class="fa-solid text-black fa-house"></i> <span class="fontpadding"> <strong>Home</strong></span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-black" href="./gallery.html"><i class="fa-solid text-black fa-image"></i><span class="fontpadding"> <strong>Gallery</strong></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black" href="./form.html"><i class="fa-solid text-black fa-pen-to-square"></i><span class="fontpadding"> <strong>Contact</strong></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black" href="./x.html"><i class="fa-solid text-black fa-user"></i><span class="fontpadding"> <strong>About</strong></span></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- User info -->
+  <header>
+    <div class="container">
+      <div class="row justify-content-lg-center">
+        <!-- <div class="col-lg-2 text-center">
+          <img src="portfolio/assets/images.png"
+            class="user-image rounded-circle " alt="Name Surname">
+        </div> -->
+        <div class="col-lg-7">
+          <h2>Athul Raja</h2>
+          <h3>MCA | Web Developer</h3>
+          <p class="text-justify">
+      
+           
+          </p>
+          <ul class="list-inline text-lg-right social-icons">
+            <!-- <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-dev"></i></a></li> -->
+            <!-- If you have another kind of blog (such as Hugo, ...) you can remove dev.to and use the next list-item 
+              <li class="list-inline-item"><a href="#" target="_blank"><i class="fas fa-pencil-alt"></i></a></li>
+              -->
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <!-- <li class="list-inline-item"><a href="#" target="_blank"><i class="fas fa-at"></i></a></li> -->
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- <h2 class="h3proj"> <span><strong>Projects</strong></span></h2> -->
+  <!-- Content -->
+  <div class="cont">
+    <div id="carouselExample" class="carousel slide corsli">
+      <div class="carousel-inner">
+        <div class="carousel-item active mb-4 ">
+          <img src="./assets/images/amoungus.jpg" class="d-block w-100 cimg" alt="..." height="400px" width="500px">
+        </div>
+        <div class="carousel-item  mb-4 ">
+          <img src="./assets/images/manutd.jpg" class="d-block w-100 cimg" alt="...">
+        </div>
+        <div class="carousel-item  mb-4 ">
+          <img src="./assets/images/minim.png" class="d-block w-100 cimg" alt="..." >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
